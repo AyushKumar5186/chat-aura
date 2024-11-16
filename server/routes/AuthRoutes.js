@@ -33,3 +33,6 @@ authRoutes.post('/logout', logOut)
 
 
 export default authRoutes;
+
+
+// adding comment
