@@ -2,5 +2,5 @@
     "version": 2,
     "name": "chat-aura",
     "builds": [{ "src": "./index.js", "use": "@vercel/node" }],
-    "routes": [{ "src": "/(.*)", "dest": "/app.jsx" }]
+    "routes": [{ "src": "/(.*)", "dest": "../client/src/App.jsx" }]
 }
