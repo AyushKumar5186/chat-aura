@@ -30,8 +30,10 @@ app.use("/uploads/files", express.static("uploads/files/"))
 app.use(cookieParser());
 app.use(express.json());
 
-app.use("/api/auth", authRoutes)
+
+app.use("/", authRoutes)
 app.use("/api/contacts", contactRoutes)
+
 app.use("/api/messages", messagesRoutes)
 app.use("/api/channel", channelRoutes)
 
