@@ -38,7 +38,6 @@ app.use("/api/messages", messagesRoutes)
 app.use("/api/channel", channelRoutes)
 
 
-
 const server = app.listen(port, async () => {
   console.log(`Server is running on ${port}`);
 });
