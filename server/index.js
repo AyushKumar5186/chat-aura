@@ -31,11 +31,12 @@ app.use(cookieParser());
 app.use(express.json());
 
 
-app.use("/", authRoutes)
+app.use("/api/auth", authRoutes)
 app.use("/api/contacts", contactRoutes)
 
 app.use("/api/messages", messagesRoutes)
 app.use("/api/channel", channelRoutes)
+
 
 
 const server = app.listen(port, async () => {
